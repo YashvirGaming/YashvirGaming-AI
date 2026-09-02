@@ -64,10 +64,6 @@ A powerful and free desktop AI chat assistant built with Python, PySide6, and ht
 </div>
 
 ---
-
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YashvirGaming/YashvirGaming-AI.git](https://github.com/YashvirGaming/YashvirGaming-AI.git)
-   cd YashvirGaming-AI
+## 📥 Downloads & Releases
+Looking for the ready-to-use application without running Python? You can download the latest compiled executable directly from the releases page:
+* 👉 **[Download Latest Release (v1.3)](https://github.com/YashvirGaming/YashvirGaming-AI/releases/latest)**
