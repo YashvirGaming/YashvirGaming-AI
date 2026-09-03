@@ -1,15 +1,16 @@
 # YashvirGaming-AI
-A powerful and free desktop AI chat assistant built with Python, PySide6, and httpx, featuring custom themes and unlimited reasoning.
+A powerful, feature-rich desktop AI chat assistant built with Python, PySide6, and Pygments, featuring VS Code-style syntax highlighting, full multi-turn conversation history, native file attachments, drag-and-drop support, and custom themes.
 
 <div align="center">
 
-# 🤖 Yashvir Gaming Free AI Chat
+# 🤖 Yashvir Gaming Free AI Chat — Pro Edition
 
 <p>A high-performance, beautifully styled desktop AI assistant built in Python using PySide6 and httpx.</p>
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/PySide6-GUI-green.svg" alt="PySide6">
+  <img src="https://img.shields.io/badge/Pygments-Syntax%20Highlighting-purple.svg" alt="Pygments">
   <img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License">
 </p>
 
@@ -27,11 +28,21 @@ A powerful and free desktop AI chat assistant built with Python, PySide6, and ht
 
 ---
 
-## ✨ Features
-* **Unlimited & Free Chat:** Powered locally via robust API streaming with zero restrictions or subscription walls.
-* **Modern GUI:** Built using **PySide6** with smooth animations, custom themes (Midnight Blue, Emerald Dark, Hacker Dark, Tokyo Night, etc.), and custom window controls.
-* **High Performance:** Utilizes an asynchronous/stream-based `httpx` networking core for lightning-fast response rendering.
-* **Security & Reliability:** Integrated debugger detection safeguards and automatic session management.
+## ✨ Pro Edition Features
+
+* **Unlimited & Free Chat:** Powered via robust API streaming with zero restrictions or subscription walls.
+* **Full Multi-Turn History Memory:** Remembers previous turns, context, code snippet changes, and names across entire conversations just like ChatGPT or Gemini.
+* **VS Code-Style Syntax Highlighting:** Integrated **Pygments** rendering engine for clean keyword coloring (Python, JavaScript, HTML, C++, etc.) with Monokai and GitHub Light code themes.
+* **One-Click Code Actions:**
+  * 📋 **Copy Code:** Instantly copy formatted code blocks or full responses to clipboard.
+  * 💾 **Save as Script:** Export code directly into `.py` or text files with one click.
+* **Universal Drag & Drop & Plus Attachment Button (+):**
+  * **Code & Text Files (`.py`, `.txt`, `.json`, `.js`, `.bat`, `.html`):** Automatically reads, extracts, and injects raw file contents into your prompt.
+  * **Images (`.png`, `.jpg`, `.jpeg`, `.webp`, `.gif`):** Base64 converts and transmits image attachments directly for visual analysis.
+* **Large Prompt Support (2K+ Characters):** Auto-resizing input box supporting multiline queries (`Shift + Enter` for new lines).
+* **Mid-Generation Cancellation:** Swap the Send button into a "Stop" button to cancel generation mid-stream whenever needed.
+* **Modern Desktop Themes:** Clean theme selector supporting high-contrast dark modes (Emerald Dark, Midnight Blue, Cyberpunk Neon, Tokyo Night, Dracula Dark, Catppuccin) and true light themes (GitHub Light).
+* **Security Safeguards:** Process-level debugger/interceptor detection and automated CSRF/session token management.
 
 ---
 
@@ -52,7 +63,7 @@ A powerful and free desktop AI chat assistant built with Python, PySide6, and ht
 <br>
 
 <div align="center">
-  <p><b>Active Chat Interface</b></p>
+  <p><b>Active Chat & Syntax Highlighting</b></p>
   <img src="Images/Chat.png" alt="Chat Interface" width="800" style="border-radius: 8px;" />
 </div>
 
@@ -64,6 +75,11 @@ A powerful and free desktop AI chat assistant built with Python, PySide6, and ht
 </div>
 
 ---
-## 📥 Downloads & Releases
-Looking for the ready-to-use application without running Python? You can download the latest compiled executable directly from the releases page:
-* 👉 **[Download Latest Release (v1.3)](https://github.com/YashvirGaming/YashvirGaming-AI/releases/latest)**
+
+## ⚙️ Installation & Usage
+
+### 1. Clone Repository & Install Dependencies
+```bash
+git clone [https://github.com/YashvirGaming/YashvirGaming-AI.git](https://github.com/YashvirGaming/YashvirGaming-AI.git)
+cd YashvirGaming-AI
+pip install -r requirements.txt
