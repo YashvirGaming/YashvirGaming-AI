@@ -78,8 +78,18 @@ A powerful, feature-rich desktop AI chat assistant built with Python, PySide6, a
 
 ## ⚙️ Installation & Usage
 
-### 1. Clone Repository & Install Dependencies
+### 🚀 Direct Executable Download
+Skip setting up Python environment—download the pre-compiled, standalone Windows executable directly from the official releases page:
+
+👉 **[Download YashvirGaming-AI (Latest Release)](https://github.com/YashvirGaming/YashvirGaming-AI/releases/)**
+
+---
+
+### 💻 Run from Source (Optional)
+If you prefer running or modifying the raw Python code directly:
+
 ```bash
 git clone [https://github.com/YashvirGaming/YashvirGaming-AI.git](https://github.com/YashvirGaming/YashvirGaming-AI.git)
 cd YashvirGaming-AI
 pip install -r requirements.txt
+python YashvirGamingAI.py
